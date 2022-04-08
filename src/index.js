@@ -1,4 +1,14 @@
-import { Document, Packer, Paragraph, HeadingLevel } from "docx";
+import {
+  Document,
+  FrameAnchorType,
+  HorizontalPositionAlign,
+  Packer,
+  Paragraph,
+  TextRun,
+  VerticalPositionAlign,
+  HeadingLevel
+} from "docx";
+
 import { saveAs } from "file-saver";
 
 function saveDocumentToFile(doc, fileName) {
